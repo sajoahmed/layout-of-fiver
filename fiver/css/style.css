@@ -1,0 +1,142 @@
+body{
+
+margin: 0;
+}
+header{
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1{
+    margin: 0;
+    color: #fff;
+    font-size: 25px;
+}
+strong{
+    text-transform: uppercase;
+    
+}
+a{
+    color: #008000e0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav{
+    border-bottom: 1px solid #9488884d;
+}
+nav ul{padding-left: 100px;}
+nav ul li{
+    list-style: none;
+  
+    display: inline-block;
+}
+nav ul li a{
+    padding: 7px 12px;
+    
+    color: #000;
+    display: block;
+}
+nav ul li a:hover{
+    color: seagreen;
+}
+
+.business-section{
+}
+.heading{
+    text-align: center;
+    padding: 15px 0;
+}
+.heading h1{
+    color: #000;
+    font-size: 45px;
+}
+.heading p{}
+
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.business-list{
+    width: 30%;
+    float: left;
+    padding-top: 50px;
+}
+.business-list ul{
+    padding: 0;
+    margin: 0;
+}
+.business-list ul li{
+    list-style: none;
+}
+.business-list ul li a{
+    font-size: 16px;
+    padding: 1px 0;
+    color: #2b2121bf;
+    display: block;
+    margin-bottom: 8px;
+}
+.business-list ul li a:hover{
+    color: #1128d0eb;
+    transition-duration: 0.4s;
+}
+
+.business-gallery{
+    width: 70%;
+    float: left;
+    margin-top: 50px;
+  
+}
+.gallery{
+    max-width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    max-height: 181.64px;
+    margin-top: 5px;
+ 
+}
+
+.gallery img{
+    width: 100%;
+}
+.gallery p{
+    margin: 0px;
+    color: #3a2c2ce3;
+}
+.gallery p:hover{
+    color: #d40909e0;
+    transition-duration: 0.4s;
+}
+
+footer{
+    background-color: #cecdcd;
+    margin-top: 30px;
+}
+.footerwrapper{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.footer1{
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    padding: 0 18px;
+    box-sizing: border-box;
+}
+.footer1 h2{
+    color: #211b1bdb;
+    text-transform: uppercase;
+}
+.footer1 h2 strong{}
+.footer1 p{
+	text-transform: capitalize;
+	color: #131111de;
+	font-size: 17px;
+}
